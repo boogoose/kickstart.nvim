@@ -347,6 +347,9 @@ do
     vim.g.vimwiki_path = '$HOME/.local/share/vimwiki'
     vim.g.vimwiki_syntax = 'markdown'
     vim.g.vimwiki_ext = 'md'
+
+  vim.pack.add { gh 'terrortylor/nvim-comment'}
+  require('nvim_comment').setup {}
   --    
   -- 
   vim.pack.add { gh 'NMAC427/guess-indent.nvim' }
